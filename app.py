@@ -269,6 +269,15 @@ class App(tk.Tk):
             arrowcolor="#ffffff",
             bordercolor="#ffffff",
         )
+        style.map(
+            "TCombobox",
+            fieldbackground=[("readonly", "#000000"), ("disabled", "#111111")],
+            foreground=[("readonly", "#ffffff"), ("disabled", "#777777")],
+            selectbackground=[("readonly", "#000000")],
+            selectforeground=[("readonly", "#ffffff")],
+            background=[("readonly", "#000000")],
+            arrowcolor=[("readonly", "#ffffff"), ("disabled", "#777777")],
+        )
 
         style.configure("TNotebook", background="#000000", borderwidth=0)
         style.configure(
