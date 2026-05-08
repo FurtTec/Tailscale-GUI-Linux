@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Tailscale GUI
+Comment=Desktop GUI for Tailscale CLI
+Exec=tailscale-gui
+Icon=tailscale-gui
+Terminal=false
+Categories=Network;Utility;
+Keywords=tailscale;vpn;network;
+StartupNotify=true

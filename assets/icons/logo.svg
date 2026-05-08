@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .logo-bg { fill: #000000; }
+      .logo-primary { fill: #ffffff; }
+      .logo-accent { fill: #6dff6d; }
+    </style>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="128" class="logo-bg"/>
+  
+  <!-- Network nodes -->
+  <circle cx="64" cy="80" r="12" class="logo-primary"/>
+  <circle cx="192" cy="80" r="12" class="logo-primary"/>
+  <circle cx="128" cy="160" r="12" class="logo-primary"/>
+  <circle cx="96" cy="200" r="10" class="logo-primary"/>
+  <circle cx="160" cy="200" r="10" class="logo-primary"/>
+  
+  <!-- Connection lines -->
+  <line x1="64" y1="92" x2="128" y2="148" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <line x1="192" y1="92" x2="128" y2="148" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <line x1="128" y1="172" x2="96" y2="190" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <line x1="128" y1="172" x2="160" y2="190" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <line x1="96" y1="210" x2="160" y2="210" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Central lock/shield accent -->
+  <circle cx="128" cy="160" r="20" fill="none" stroke="#6dff6d" stroke-width="2" opacity="0.8"/>
+  <path d="M 128 145 L 138 152 L 133 152 L 133 165 L 123 165 L 123 152 L 118 152 Z" class="logo-accent" opacity="0.9"/>
+  
+  <!-- Top accent line for "tailscale" feel -->
+  <path d="M 50 30 Q 128 10 206 30" stroke="#6dff6d" stroke-width="2" fill="none" opacity="0.6"/>
+</svg>
